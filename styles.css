@@ -43,42 +43,6 @@
     padding: 1rem; 
     color: white; 
 } 
-.header { 
-    animation: slideIn 1s ease-out; 
-} 
- 
-.nav ul li { 
-    opacity: 0; 
-    animation: fadeIn 0.5s ease-out forwards; 
-} 
- 
-.nav ul li:nth-child(1) { animation-delay: 0.1s; } 
-.nav ul li:nth-child(2) { animation-delay: 0.2s; } 
-.nav ul li:nth-child(3) { animation-delay: 0.3s; } 
-.nav ul li:nth-child(4) { animation-delay: 0.4s; } 
- 
-.main { 
-    animation: fadeIn 1s ease-out; 
-} 
- 
-.sidebar {
-    animation: slideIn 1s ease-out; 
-}
-
-/* Hover Effects */
-.nav ul li {
-    transition: transform 0.3s ease;
-   }
-   .nav ul li:hover {
-    transform: translateX(10px);
-   }
-   .sidebar ul li {
-    transition: all 0.3s ease;
-   }
-   .sidebar ul li:hover {
-    transform: scale(1.05);
-    color: #2196F3;
-   }
  
 /* สำหรับแท็บเล็ต */ 
 @media (max-width: 768px) { 
@@ -126,3 +90,40 @@
     50% { transform: translateY(-10px); } 
 } 
  
+/* ใช้งาน animations */ 
+.header { 
+    animation: slideIn 1s ease-out; 
+} 
+ 
+.nav ul li { 
+    opacity: 0; 
+    animation: fadeIn 0.5s ease-out forwards; 
+} 
+ 
+.nav ul li:nth-child(1) { animation-delay: 0.1s; } 
+.nav ul li:nth-child(2) { animation-delay: 0.2s; } 
+.nav ul li:nth-child(3) { animation-delay: 0.3s; } 
+.nav ul li:nth-child(4) { animation-delay: 0.4s; } 
+ 
+.main { 
+    animation: fadeIn 1s ease-out; 
+} 
+ 
+.sidebar {
+    animation: slideIn 1s ease-out; 
+}
+
+/* Hover Effects */
+.nav ul li {
+    transition: transform 0.3s ease;
+   }
+   .nav ul li:hover {
+    transform: translateX(10px);
+   }
+   .sidebar ul li {
+    transition: all 0.3s ease;
+   }
+   .sidebar ul li:hover {
+    transform: scale(1.05);
+    color: #2196F3;
+   }
